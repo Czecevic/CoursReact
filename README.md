@@ -173,3 +173,25 @@ Dans ce code, la fonction *handleClick* est définie comme gestionnaire d'évén
 Il existe de nombreux types d'événements en React, tels que *onChange* pour les éléments de formulaire, onSubmit pour les formulaires, *onMouseOver* pour la souris, etc. Vous pouvez trouver une liste complète des événements pris en charge par React sur la documentation officielle de la bibliothèque.
 
 En utilisant des gestionnaires d'événements, vous pouvez facilement gérer les actions de l'utilisateur dans votre application React et y réagir en conséquence. C'est une partie importante de la création d'interfaces utilisateur interactives en React.
+
+## La différence entre React et React Native
+
+React utilise la syntaxe JSX (JavaScript XML) pour créer des éléments de l'interface utilisateur et est très populaire pour développer des applications Web modernes.
+
+React Native, quant à lui, est une bibliothèque open-source conçue pour créer des applications mobiles natives pour les systèmes d'exploitation iOS et Android. React Native utilise également la syntaxe JSX pour créer des éléments de l'interface utilisateur, mais il les traduit en code natif pour les différentes plateformes cibles.
+
+React est principalement utilisé pour développer des applications Web, tandis que React Native est utilisé pour développer des applications mobiles natives. Bien que les deux bibliothèques partagent une syntaxe similaire et certaines concepts de base, elles sont conçues pour des utilisations différentes.
+
+
+# Creation du premier projet React 
+
+1 - Créez un nouveau projet React en utilisant la commande create-react-app / npm create vite@latest
+(vous pouvez ensuite suivre les étapes indiquer par l'écran)
+
+2 - Dans le fichier App.js (ou .jsx si vous avez installer vite), remplacez le code existant par un composant de bienvenue qui affiche un message de bienvenue à l'utilisateur. Vous pouvez utiliser la syntaxe JSX pour créer l'élément de l'interface utilisateur.
+
+3 - Créez un nouveau composant qui affiche un formulaire de connexion avec deux champs de formulaire (un pour l'email et un pour le mot de passe) et un bouton de soumission. Utilisez la fonction handleChange pour mettre à jour l'état du composant lorsque l'utilisateur modifie les champs de formulaire.
+
+4 - Créez une fonction handleSubmit qui affiche un message d'alerte lorsque le formulaire est soumis avec les données entrées par l'utilisateur. Utilisez la méthode preventDefault pour empêcher le rechargement de la page lors de la soumission du formulaire.
+
+5 - Incluez le composant de formulaire de connexion dans le composant principal et testez-le en vous assurant que le formulaire fonctionne correctement.
