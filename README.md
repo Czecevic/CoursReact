@@ -183,15 +183,5 @@ React Native, quant à lui, est une bibliothèque open-source conçue pour crée
 React est principalement utilisé pour développer des applications Web, tandis que React Native est utilisé pour développer des applications mobiles natives. Bien que les deux bibliothèques partagent une syntaxe similaire et certaines concepts de base, elles sont conçues pour des utilisations différentes.
 
 
-# Creation du premier projet React 
-
-1 - Créez un nouveau projet React en utilisant la commande create-react-app / npm create vite@latest
-(vous pouvez ensuite suivre les étapes indiquer par l'écran)
-
-2 - Dans le fichier App.js (ou .jsx si vous avez installer vite), remplacez le code existant par un composant de bienvenue qui affiche un message de bienvenue à l'utilisateur. Vous pouvez utiliser la syntaxe JSX pour créer l'élément de l'interface utilisateur.
-
-3 - Créez un nouveau composant qui affiche un formulaire de connexion avec deux champs de formulaire (un pour l'email et un pour le mot de passe) et un bouton de soumission. Utilisez la fonction handleChange pour mettre à jour l'état du composant lorsque l'utilisateur modifie les champs de formulaire.
-
-4 - Créez une fonction handleSubmit qui affiche un message d'alerte lorsque le formulaire est soumis avec les données entrées par l'utilisateur. Utilisez la méthode preventDefault pour empêcher le rechargement de la page lors de la soumission du formulaire.
-
-5 - Incluez le composant de formulaire de connexion dans le composant principal et testez-le en vous assurant que le formulaire fonctionne correctement.
+# passons aux exercices 
+allez dans le dossier **exercice** et cliquez sur le fichier **App.jsx**
