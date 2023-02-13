@@ -184,4 +184,4 @@ React est principalement utilisé pour développer des applications Web, tandis 
 
 
 # passons aux exercices 
-allez dans le dossier **exercice** et cliquez sur le fichier **App.jsx**
+allez dans le dossier **src** et cliquez sur le fichier **App.jsx**
